@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "py-runge-kutta-45"
+version = "1.0.0"
+description = "Adaptive RK45 ODE solver with error control"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "Mahmoud ElNemer", email = "sultanelnemer@gmail.com"}]
+keywords = ["python", "runge-kutta", "ode", "numerical", "scientific"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/ElNeMeR70/py-runge-kutta-45"
+Repository = "https://github.com/ElNeMeR70/py-runge-kutta-45"
